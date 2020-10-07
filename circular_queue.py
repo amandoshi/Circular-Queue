@@ -5,7 +5,7 @@ class CQueue:
     Contains all necessary functions associated with queues (enqueue, dequeue)
     Uses helper functions (queue_empty, queue_full) to carry out main functions
     
-    Atributes:
+    Attributes:
         _queue_size (int): The maximum number elements which can be stored in the queue
         _queue (:obj:`list` of :obj:`int`): Array stores elements in queue
         _head (int): Pointer pointing to index of head of queue
